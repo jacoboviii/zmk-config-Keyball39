@@ -40,9 +40,10 @@
     };
 
     trackball_listener {
-        compatible = "zmk,input-listener";
-        layers = <1>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
+        scroller {
+            layers = <1>;
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
     };
 
     keymap {
