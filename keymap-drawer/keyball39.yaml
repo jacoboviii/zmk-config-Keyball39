@@ -1,4 +1,3 @@
-layout: {zmk_keyboard: keyball39}
 layers:
   Base:
   - Q
