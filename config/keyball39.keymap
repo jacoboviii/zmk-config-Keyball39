@@ -6,15 +6,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <input/processors.dtsi>
 
-&trackball_listener {
-    input-processors = <&zip_xy_scaler 3 2>;
-
-    scroller {
-        layers = <1>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
-    };
-}
-
 / {
     // custom shift using mod-morph 
 
@@ -46,6 +37,13 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 21 22 23 24 20 33 34 35 36 37 38>;
         };
+    };
+
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+        layers = <1>;
+        input-processors = <&zip_xy_to_scroll_mapper>;
     };
 
     keymap {
