@@ -44,7 +44,7 @@
             layers = <0>;
             input-processors = <&zip_temp_layer 2 500>;
             process-next;
-        }
+        };
 
         scroller {
             layers = <1>;
