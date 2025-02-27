@@ -45,11 +45,10 @@
         scroller {
             layers = <1>;
             input-processors = <&zip_xy_scaler 1 8 &zip_xy_to_scroll_mapper &zip_scroll_scaler 1 8>;
-            process-next;
         };
 
         sniper {
-            layers = <2>;
+            layers = <3>;
             input-processors = <&zip_xy_scaler 1 3>;
         };
     };
