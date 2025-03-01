@@ -93,7 +93,6 @@
 &none     &none     &none       &trans     &trans  &trans  &trans  &trans                                   &trans
             >;
         };
-    };
 
         num {
             label = "Num";
@@ -124,4 +123,5 @@
 &none     &none      &none      &trans     &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans                                  &trans
             >;
         };
+    };
 };
