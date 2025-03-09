@@ -67,30 +67,30 @@
         nav {
             label = "Nav";
             bindings = <
-&none     &none      &none      &none      &none                      &kp LS(LG(Z))  &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)
-&kp LGUI  &kp LALT   &kp LCTRL  &kp LSHFT  &none                      &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &caps_word
-&none     &none      &none      &none      &none                      &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &kp INS
-&none     &none      &none      &trans     &trans  &trans  &kp ENTER  &kp BSPC                                        &kp DELETE
+&none     &none     &none      &none      &none                      &kp LS(LG(Z))  &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)
+&kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none                      &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &caps_word
+&none     &none     &none      &none      &none                      &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &kp INS
+&none     &none     &none      &trans     &trans  &trans  &kp ENTER  &kp BSPC                                        &kp DELETE
             >;
         };
 
         media {
             label = "Media";
             bindings = <
-&none     &none     &none       &none      &none                       &kp LS(LG(Z))  &kp LG(V)          &kp LG(C)        &kp LG(X)     &kp LG(Z)
-&kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none                       &kp C_PREV     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT    &bt BT_CLR
-&none     &none     &none       &none      &none                       &bt BT_SEL 0   &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4
-&none     &none     &none       &trans     &trans  &trans  &kp C_STOP  &kp C_PP                                                         &kp C_MUTE
+&mkp MCLK  &mkp RCLK  &none      &mkp LCLK  &none                       &kp LS(LG(Z))  &kp LG(V)          &kp LG(C)        &kp LG(X)     &kp LG(Z)
+&kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &none                       &kp C_PREV     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT    &bt BT_CLR
+&none      &none      &none      &none      &none                       &bt BT_SEL 0   &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4
+&none      &none      &none      &trans     &trans  &trans  &kp C_STOP  &kp C_PP                                                         &kp C_MUTE
             >;
         };
 
         fun {
             label = "Fun";
             bindings = <
-&none     &none     &none       &none      &none                   &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12    
-&kp LGUI  &kp LALT  &kp LCTRL   &kp LSHFT  &none                   &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11    
-&none     &none     &none       &none      &none                   &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10    
-&none     &none     &none       &trans     &trans  &trans  &trans  &trans                                   &trans
+&none     &none     &none      &none      &none                   &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12
+&kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none                   &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11
+&none     &none     &none      &none      &none                   &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10
+&none     &none     &none      &trans     &trans  &trans  &trans  &trans                                   &trans
             >;
         };
 
