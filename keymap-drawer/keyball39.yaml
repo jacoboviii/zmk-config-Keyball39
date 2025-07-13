@@ -24,7 +24,7 @@ layers:
   - Z
   - X
   - C
-  - V
+  - {t: V, h: Scroll}
   - B
   - N
   - {t: M, h: Mouse}
@@ -39,7 +39,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: Sym}
   - {t: '$$mdi:keyboard-return$$', h: Fun}
   - {t: '$$mdi:backspace$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Mouse}
+  - $$mdi:backspace-reverse-outline$$
   Nav:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -279,7 +279,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   Scroll:
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
@@ -307,7 +307,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -320,6 +320,3 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [23, 26]
-  k: Scroll
