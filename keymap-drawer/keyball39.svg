@@ -445,9 +445,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">,</text>
-<a href="#Scroll">
-<text x="0" y="24" class="key hold layer-activator">Scroll</text>
-</a><text x="0" y="-24" class="key shifted">&lt;</text>
+<text x="0" y="-24" class="key shifted">&lt;</text>
 </g>
 <g transform="translate(672, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -517,6 +515,13 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 <a href="#Mouse">
 <text x="0" y="24" class="key hold layer-activator">Mouse</text>
+</a></g>
+<g class="combo combopos-0">
+<path d="M434,147 l-163,6" class="combo"/>
+<path d="M434,147 l163,-6" class="combo"/>
+<rect rx="6" ry="6" x="420" y="134" width="28" height="26" class="combo"/>
+<a href="#Scroll">
+<text x="434" y="147" class="combo tap layer-activator">Scroll</text>
 </a></g>
 </g>
 </g>
@@ -727,6 +732,13 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 </g>
+<g class="combo combopos-0">
+<path d="M434,147 l-163,6" class="combo"/>
+<path d="M434,147 l163,-6" class="combo"/>
+<rect rx="6" ry="6" x="420" y="134" width="28" height="26" class="combo"/>
+<a href="#Scroll">
+<text x="434" y="147" class="combo tap layer-activator">Scroll</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 688)" class="layer-Media">
@@ -937,6 +949,13 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<path d="M434,147 l-163,6" class="combo"/>
+<path d="M434,147 l163,-6" class="combo"/>
+<rect rx="6" ry="6" x="420" y="134" width="28" height="26" class="combo"/>
+<a href="#Scroll">
+<text x="434" y="147" class="combo tap layer-activator">Scroll</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1031)" class="layer-Fun">
@@ -1138,6 +1157,13 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<path d="M434,147 l-163,6" class="combo"/>
+<path d="M434,147 l163,-6" class="combo"/>
+<rect rx="6" ry="6" x="420" y="134" width="28" height="26" class="combo"/>
+<a href="#Scroll">
+<text x="434" y="147" class="combo tap layer-activator">Scroll</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1375)" class="layer-Num">
@@ -1355,6 +1381,13 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap">.</text>
 <text x="0" y="-24" class="key shifted">&gt;</text>
 </g>
+<g class="combo combopos-0">
+<path d="M434,147 l-163,6" class="combo"/>
+<path d="M434,147 l163,-6" class="combo"/>
+<rect rx="6" ry="6" x="420" y="134" width="28" height="26" class="combo"/>
+<a href="#Scroll">
+<text x="434" y="147" class="combo tap layer-activator">Scroll</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1719)" class="layer-Sym">
@@ -1554,6 +1587,13 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">(</text>
 </g>
+<g class="combo combopos-0">
+<path d="M434,147 l-163,6" class="combo"/>
+<path d="M434,147 l163,-6" class="combo"/>
+<rect rx="6" ry="6" x="420" y="134" width="28" height="26" class="combo"/>
+<a href="#Scroll">
+<text x="434" y="147" class="combo tap layer-activator">Scroll</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 2063)" class="layer-Mouse">
@@ -1758,6 +1798,13 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
+<g class="combo combopos-0">
+<path d="M434,147 l-163,6" class="combo"/>
+<path d="M434,147 l163,-6" class="combo"/>
+<rect rx="6" ry="6" x="420" y="134" width="28" height="26" class="combo"/>
+<a href="#Scroll">
+<text x="434" y="147" class="combo tap layer-activator">Scroll</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 2406)" class="layer-Scroll">
@@ -1889,10 +1936,9 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(252, 154)" class="key trans keypos-24">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(252, 154)" class="key held keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(504, 154)" class="key trans keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1963,6 +2009,13 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<path d="M434,147 l-163,6" class="combo"/>
+<path d="M434,147 l163,-6" class="combo"/>
+<rect rx="6" ry="6" x="420" y="134" width="28" height="26" class="combo"/>
+<a href="#Scroll">
+<text x="434" y="147" class="combo tap layer-activator">Scroll</text>
+</a></g>
 </g>
 </g>
 </svg>
